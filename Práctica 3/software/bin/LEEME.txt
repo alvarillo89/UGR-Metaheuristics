@@ -1,0 +1,25 @@
+raíz/
+├── Memoria.pdf
+└── software/
+    ├── bin/
+    │   ├── data/
+    │   │   ├── *.dat
+    │   │   └── *.sln
+    │   ├── LEEME.txt
+    │   └── QAP
+    └── fuentes/
+        ├── QAP.cpp
+        ├── random.cpp
+        └── random.h
+
+Memoria.pdf: Explicación de toda la práctica.
+software: Directorio que ontiene el programa en sı́.
+bin: Directorio que contiene el ejecutable y los datos.
+LEEME.txt: Este mismo documento.
+QAP: Ejecutable.
+data: Directorio que contiene los datos de QAPLIB.
+*.dat: Datos del problema.
+*.sln: Solucion al problema.
+fuentes: Contiene los códigos fuente.
+QAP.cpp: Contiene el programa principal de la practica.
+random.cpp, random.h: Generador de números aleatorios proporcionado
